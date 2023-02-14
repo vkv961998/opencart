@@ -35,8 +35,16 @@ public class AccountRegistrationPage extends BasePage {
 		@FindBy(xpath = "//input[@value='Continue']")
 		WebElement btnContinue;
 
+		@FindBy(xpath = "//label[normalize-space()='Yes']")
+		WebElement radioYes;
+		
+		@FindBy(xpath = "//input[@value='0']")
+		WebElement radioNo;
+		
 		@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 		WebElement msgConfirmation;
+		
+		
 
 		public void setFirstName(String fname) {
 			txtFirstname.sendKeys(fname);
@@ -66,7 +74,17 @@ public class AccountRegistrationPage extends BasePage {
 			txtConfirmPassword.sendKeys(pwd);
 
 		}
+		
+		public void clickYesButton()
+		{
+			radioYes.click();
+		}
 
+		public void clickNoButton()
+		{
+			radioNo.click();
+		}
+		
 		public void setPrivacyPolicy() {
 			chkdPolicy.click();
 

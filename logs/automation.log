@@ -154,3 +154,31 @@
 19:56:51.002 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register link
 19:56:51.284 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer details
 19:56:54.830 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on continue
+13:05:50.584 [main] INFO  testCases.TC_RF_004 - *** Starting account registration test ***
+13:05:52.670 [main] INFO  testCases.TC_RF_004 - Clicked on register link
+13:07:40.604 [main] INFO  testCases.TC_RF_004 - *** Starting account registration test ***
+13:07:41.636 [main] INFO  testCases.TC_RF_004 - Clicked on register link
+13:08:27.577 [main] INFO  testCases.TC_RF_004 - *** Starting account registration test ***
+13:08:28.567 [main] INFO  testCases.TC_RF_004 - Clicked on register link
+13:08:56.766 [main] INFO  testCases.TC_RF_004 - *** Starting account registration test ***
+13:08:57.718 [main] INFO  testCases.TC_RF_004 - Clicked on register link
+13:16:13.625 [main] INFO  testCases.TC_RF_004 - *** Starting account registration test ***
+13:16:14.665 [main] INFO  testCases.TC_RF_004 - Clicked on register link
+13:17:44.252 [main] INFO  testCases.TC_RF_004 - *** Starting account registration test ***
+13:17:45.262 [main] INFO  testCases.TC_RF_004 - Clicked on register link
+18:30:44.066 [main] INFO  testCases.TC_RF_004 - *** Starting account registration test ***
+18:30:45.057 [main] INFO  testCases.TC_RF_004 - Clicked on register link
+18:33:35.525 [main] INFO  testCases.TC_RF_005 - *** Starting account registration test ***
+18:33:36.537 [main] INFO  testCases.TC_RF_005 - Clicked on register link
+18:33:36.829 [main] INFO  testCases.TC_RF_005 - Providing customer details
+18:35:51.782 [main] INFO  testCases.TC_RF_005 - *** Starting account registration test ***
+18:35:52.764 [main] INFO  testCases.TC_RF_005 - Clicked on register link
+18:35:53.130 [main] INFO  testCases.TC_RF_005 - Providing customer details
+18:41:13.306 [main] INFO  testCases.TC_RF_005 - *** Starting account registration test ***
+18:41:14.252 [main] INFO  testCases.TC_RF_005 - Clicked on register link
+18:41:14.561 [main] INFO  testCases.TC_RF_005 - Providing customer details
+12:15:55.535 [main] INFO  testCases.TC_RF_005 - *** Starting account registration test ***
+12:15:57.789 [main] INFO  testCases.TC_RF_005 - Clicked on register link
+12:15:58.332 [main] INFO  testCases.TC_RF_005 - Providing customer details
+12:43:40.922 [main] INFO  testCases.TC_RF_004 - *** Starting account registration test ***
+12:43:42.750 [main] INFO  testCases.TC_RF_004 - Clicked on register link

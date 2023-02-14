@@ -26,25 +26,15 @@ public class BaseClass {
 	public Logger logger;
 	public ResourceBundle rb;
 	@BeforeClass(groups = {"Master","Sanity","Regression"})
-	@Parameters("browser")
-	public void setup(String br)
+	@Parameters
+	public void setup()
 	{
 		//ChromeOptions options=new ChromeOptions();
 		//options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
 		rb=ResourceBundle.getBundle("config");
 		WebDriverManager.chromedriver().setup();
-		if(br.equals("chrome"))
-		{
-			driver=new ChromeDriver();
-		}
-		else if(br.equals("edge"))
-		{
-			driver=new EdgeDriver();
-		}
-		else
-		{
-			driver=new FirefoxDriver();
-		}
+		
+		driver=new ChromeDriver();
 		
 		logger=LogManager.getLogger(this.getClass());
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
